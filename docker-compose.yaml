@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  python-input:
+    build: .
+    stdin_open: true
+    tty: true
